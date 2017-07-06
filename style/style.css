@@ -9,3 +9,13 @@ td, th {
 svg {
   height: 150px;
 }
+
+td:first-of-type, td:first-of-type > div {
+  height: 150px;
+  width: 250px;
+}
+
+.map {
+  position: relative;
+  bottom: 10px;
+}
